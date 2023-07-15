@@ -6,3 +6,7 @@ constantTime: ./Notations/ConstantTime/example.cpp
 linearTime: ./Notations/LinearTime/example.cpp
 	g++ -o linearTime ./Notations/LinearTime/example.cpp
 	./linearTime
+
+quadraticTime: ./Notations/QuadraticTime/example.cpp
+	g++ -o quadraticTime ./Notations/QuadraticTime/example.cpp
+	./quadraticTime
