@@ -26,3 +26,7 @@ factorialTime: ./Notations/FactorialTime/example.cpp
 farrays: ./Arrays/FixedArrays/fixedArrays.cpp
 	g++ -o farrays ./Arrays/FixedArrays/fixedArrays.cpp
 	./farrays
+
+marrays: ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
+	g++ -o marrays ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
+	./marrays
