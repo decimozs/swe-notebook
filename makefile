@@ -34,3 +34,7 @@ marrays: ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
 sumOfAnArray: ./Exercises/Arrays/sumOfAnArray.cpp
 	g++ -o sumOfAnArray ./Exercises/Arrays/sumOfAnArray.cpp
 	./sumOfAnArray
+
+reversingAnArray: ./Exercises/Arrays/reversingAnArray.cpp
+	g++ -o reversingAnArray ./Exercises/Arrays/reversingAnArray.cpp
+	./reversingAnArray
