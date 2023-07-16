@@ -46,3 +46,7 @@ removeDuplicates: ./Exercises/Arrays/removeDuplicates.cpp
 secondLargestElement: ./Exercises/Arrays/secondLargestElement.cpp
 	g++ -o secondLargestElement ./Exercises/Arrays/secondLargestElement.cpp
 	./secondLargestElement
+
+arraySorted: ./Exercises/Arrays/checkIfItsSorted.cpp
+	g++ -o arraySorted ./Exercises/Arrays/checkIfItsSorted.cpp
+	./arraySorted
