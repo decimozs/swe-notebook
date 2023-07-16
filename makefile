@@ -14,3 +14,7 @@ quadraticTime: ./Notations/QuadraticTime/example.cpp
 logTime: ./Notations/LogarithmicTime/example.cpp
 	g++ -o logTime ./Notations/LogarithmicTime/example.cpp
 	./logTime
+
+loglinearTime: ./Notations/LoglinearTime/example.cpp
+	g++ -o loglinearTime ./Notations/LoglinearTime/example.cpp
+	./loglinearTime
