@@ -18,3 +18,7 @@ logTime: ./Notations/LogarithmicTime/example.cpp
 loglinearTime: ./Notations/LoglinearTime/example.cpp
 	g++ -o loglinearTime ./Notations/LoglinearTime/example.cpp
 	./loglinearTime
+
+factorialTime: ./Notations/FactorialTime/example.cpp
+	g++ -o factorialTime ./Notations/FactorialTime/example.cpp
+	./factorialTime
