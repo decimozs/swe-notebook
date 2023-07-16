@@ -42,3 +42,7 @@ reversingAnArray: ./Exercises/Arrays/reversingAnArray.cpp
 removeDuplicates: ./Exercises/Arrays/removeDuplicates.cpp
 	g++ -o removeDuplicates ./Exercises/Arrays/removeDuplicates.cpp
 	./removeDuplicates
+
+secondLargestElement: ./Exercises/Arrays/secondLargestElement.cpp
+	g++ -o secondLargestElement ./Exercises/Arrays/secondLargestElement.cpp
+	./secondLargestElement
