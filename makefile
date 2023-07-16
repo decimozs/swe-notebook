@@ -30,3 +30,7 @@ farrays: ./Arrays/FixedArrays/fixedArrays.cpp
 marrays: ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
 	g++ -o marrays ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
 	./marrays
+
+sumOfAnArray: ./Exercises/Arrays/sumOfAnArray.cpp
+	g++ -o sumOfAnArray ./Exercises/Arrays/sumOfAnArray.cpp
+	./sumOfAnArray
