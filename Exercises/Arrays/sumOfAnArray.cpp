@@ -11,7 +11,7 @@ int main(){
     sum += arr[i];
   }
 
-  std::cout << "Sum: " << sum << std::endl;
+  std::cout << sum << std::endl;
 
   return 0;
 }
