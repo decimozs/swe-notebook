@@ -38,3 +38,7 @@ sumOfAnArray: ./Exercises/Arrays/sumOfAnArray.cpp
 reversingAnArray: ./Exercises/Arrays/reversingAnArray.cpp
 	g++ -o reversingAnArray ./Exercises/Arrays/reversingAnArray.cpp
 	./reversingAnArray
+
+removeDuplicates: ./Exercises/Arrays/removeDuplicates.cpp
+	g++ -o removeDuplicates ./Exercises/Arrays/removeDuplicates.cpp
+	./removeDuplicates
