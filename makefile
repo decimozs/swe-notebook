@@ -22,3 +22,7 @@ loglinearTime: ./Notations/LoglinearTime/example.cpp
 factorialTime: ./Notations/FactorialTime/example.cpp
 	g++ -o factorialTime ./Notations/FactorialTime/example.cpp
 	./factorialTime
+
+farrays: ./Arrays/FixedArrays/fixedArrays.cpp
+	g++ -o farrays ./Arrays/FixedArrays/fixedArrays.cpp
+	./farrays
