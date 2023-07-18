@@ -31,6 +31,10 @@ marrays: ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
 	g++ -o marrays ./Arrays/MultidimensionalArrays/multidimensionalArrays.cpp
 	./marrays
 
+darrays: ./Arrays/DynamicArrays/dynamicArrays.cpp
+	g++ -o darrays ./Arrays/DynamicArrays/dynamicArrays.cpp
+	./darrays
+
 sumOfAnArray: ./Exercises/Arrays/sumOfAnArray.cpp
 	g++ -o sumOfAnArray ./Exercises/Arrays/sumOfAnArray.cpp
 	./sumOfAnArray
@@ -50,3 +54,5 @@ secondLargestElement: ./Exercises/Arrays/secondLargestElement.cpp
 arraySorted: ./Exercises/Arrays/checkIfItsSorted.cpp
 	g++ -o arraySorted ./Exercises/Arrays/checkIfItsSorted.cpp
 	./arraySorted
+
+
