@@ -1,3 +1,11 @@
+ptr: ./Pointers/Ptr/pointers.cpp
+	g++ -o ptr ./Pointers/Ptr/pointers.cpp
+	./ptr
+
+sll: ./LinkedList/SinglyLinkedList/singlyLinkedList.cpp
+	g++ -o sll ./LinkedList/SinglyLinkedList/singlyLinkedList.cpp
+	./sll
+
 test: ./test.cpp
 	g++ -o test ./test.cpp
 	./test
