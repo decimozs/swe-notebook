@@ -1,3 +1,6 @@
+test: ./test.cpp
+	g++ -o test ./test.cpp
+	./test
 
 constantTime: ./Notations/ConstantTime/example.cpp
 	g++ -o constantTime ./Notations/ConstantTime/example.cpp
